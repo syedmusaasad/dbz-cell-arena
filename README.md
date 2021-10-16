@@ -5,6 +5,7 @@ The following technical sample provides documentation for major functionalities 
 ## Documentation
 
 1. Entering the game
+    ![entering-the-game](/img/entering-the-game.png)
 2. Store
 3. Character selection
 4. Select/purchase character
