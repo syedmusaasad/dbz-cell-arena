@@ -6,6 +6,9 @@ The following technical sample provides documentation for major functionalities 
 
 ### 1. Entering the Game
 ![entering-the-game](/img/entering-the-game.png)
+
+The relevant code for the `STATS` is located in `StarterGui > ScreenGui > Stats > Stats.lua`
+
 ### 2. Store
 ![store](/img/store.png)
 ### 3. Character Selection
