@@ -10,7 +10,7 @@ The following technical sample provides documentation for major functionalities 
     ![store](/img/store.png)
 3. Character selection <br />
     ![character-selection](/img/character-selection.png)
-4. Select/purchase character__
+4. Select/purchase character <br />
     ![select-character](/img/select-character.png)
 5. Enter battlegrounds <br />
     ![spawn-character](/img/spawn-character.png)
