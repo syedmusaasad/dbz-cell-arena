@@ -4,23 +4,23 @@ The following technical sample provides documentation for major functionalities 
 
 ## Documentation
 
-1. Entering the game
+1. Entering the game__
     ![entering-the-game](/img/entering-the-game.png)
-2. Store
+2. Store__
     ![store](/img/store.png)
-3. Character selection
+3. Character selection__
     ![character-selection](/img/character-selection.png)
-4. Select/purchase character
+4. Select/purchase character__
     ![select-character](/img/select-character.png)
-5. Enter battlegrounds
+5. Enter battlegrounds__
     ![spawn-character](/img/spawn-character.png)
-6. Melee
+6. Melee__
     ![melee](/img/melee.png)
-7. Transformation
+7. Transformation__
     ![transform](/img/transform.png)
-8. Blast
+8. Blast__
     ![blast](/img/blast.png)
-9. Damage
+9. Damage__
     ![damage](/img/damage.png)
-10. Stats
+10. Stats__
     ![stats](/img/stats.png)
