@@ -7,7 +7,7 @@ The following technical sample provides documentation for major functionalities 
 ### 1. Entering the Game
 ![entering-the-game](/img/entering-the-game.png)
 
-The relevant code for the `STATS` is located in `StarterGui > ScreenGui > Stats > Stats.lua`
+The relevant code for the `STATS` is located in `StarterGui > ScreenGui > Stats > Stats.lua`. The values for yen, kills, and damage are stored using a data persistence API provided by ROBLOX and then output to the `STATS`.
 
 ### 2. Store
 ![store](/img/store.png)
