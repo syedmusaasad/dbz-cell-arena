@@ -9,6 +9,12 @@ The following technical sample provides documentation for major functionalities 
 
 The relevant code for the `STATS` is located in `StarterGui > ScreenGui > Stats > Stats.lua`. The values for yen, kills, and damage are stored using a data persistence API provided by ROBLOX and then output to the `STATS`.
 
+The relevant code for the `STORE` is located in `StarterGui > ScreenGui > Menu > Store > StoreToggle.lua`. This script allows users to press the `STORE` button to open up the store. See below for more details on the store.
+
+The relevant code for the `SAVE` is located in `StarterGui > ScreenGui > Save > SavingInformation.lua`. This script allows users to press the `SAVE` button to save their current in-game progress (for current earned yen, kills, and damage). It's important to note that this `SAVE` button is just for peace of mind as the game automatically saves when the user quits the game.
+
+The relevant code for the volume is located in 
+
 ### 2. Store
 ![store](/img/store.png)
 ### 3. Character Selection
