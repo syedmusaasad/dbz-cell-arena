@@ -61,9 +61,7 @@ The relevant code for the blast/beam attack is located in `ServerStorage > KiBea
 ### 9. Damage
 ![damage](/img/damage.png)
 
-The damage property in this game is used in both the melee and blast/beam attack. 
-
-hit animation, hit tags placed, damage counter to stats, kills if health below 0, etc
+The damage property in this game is used in both the melee and blast/beam attack (check their scripts). When a user damages another player, a hit animation is played using a separate thread (the current thread executes the next line of current code while the new thread executres the hit animation). When a player is attacked, a "hit tag" is attatched to that player so it notifies who is doing the damage (since there can be multiple players at a time). When damage is being done, or when a player is defeated (found through a player's health dropping to 0), the current stats update the number of damage or kills.
 
 ### 10. Stats
 ![stats](/img/stats.png)
