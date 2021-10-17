@@ -63,7 +63,9 @@ The relevant code for the blast/beam attack is located in `ServerStorage > KiBea
 
 The damage property in this game is used in both the melee and blast/beam attack (check their scripts). When a user damages another player, a hit animation is played using a separate thread (the current thread executes the next line of current code while the new thread executres the hit animation). When a player is attacked, a "hit tag" is attatched to that player so it notifies who is doing the damage (since there can be multiple players at a time). When damage is being done, or when a player is defeated (found through a player's health dropping to 0), the current stats update the number of damage or kills.
 
-### 10. Stats
+### 10. Stats/Respawn
 ![stats](/img/stats.png)
 
-global stats and battle stats, remove items, character added, remove buttons `StarterPlayer\StarterPlayerScripts\RemoveButtons.lua` `StarterPlayer\StarterCharacterScripts\RemoveItems.lua` `StarterPlayer\StarterCharacterScripts\CharacterAdded.lua`
+The relevant code for the after battle stats is located in `StarterGui > ScreenGui > BattleStats > AfterBattle.lua`. When the player is defeated, they load back into the original starter spot and are able to choose a character again. However, before this, they are presented with `BATTLE STATS` that show their performance in the previous game. These stats are then added onto their global stats, which are visible in the top right corner (or at the top as seen in the first image of the documentation).
+
+Additionally, when the player respawns, they will notice that their character is reset and their items are gone. This is done with the remove items and character added scripts: `StarterPlayer > StarterCharacterScripts > RemoveItems.lua` and `StarterPlayer > StarterCharacterScripts > CharacterAdded.lua`. Also, since I implemented mobile support, if the user is on mobile, the button to use the beam is removed.
